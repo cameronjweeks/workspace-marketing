@@ -1,78 +1,65 @@
 <script>
-	import MockWindow from './MockWindow.svelte';
+  import MockAppShell from './MockAppShell.svelte';
 
-	const tickets = [
-		{
-			id: 'WS-14',
-			title: 'Add token refresh middleware',
-			status: 'done',
-			branch: 'agent/ws-14',
-			lines: '+47 / -3'
-		},
-		{
-			id: 'WS-15',
-			title: 'Implement file paste handler',
-			status: 'working',
-			branch: 'agent/ws-15',
-			lines: '+82 / -0'
-		},
-		{
-			id: 'WS-16',
-			title: 'MCP tool: git status summary',
-			status: 'review',
-			branch: 'agent/ws-16',
-			lines: '+134 / -12'
-		},
-		{
-			id: 'WS-17',
-			title: 'Project rail keyboard shortcuts',
-			status: 'todo',
-			branch: '',
-			lines: ''
-		}
-	];
-
-	const statusConfig = {
-		todo:    { label: 'Todo',    dot: 'bg-ink-600',  text: 'text-slate-500' },
-		working: { label: 'Working', dot: 'bg-ws-400 shadow-[0_0_6px_currentColor]',   text: 'text-ws-400' },
-		review:  { label: 'Review',  dot: 'bg-run-400 shadow-[0_0_6px_currentColor]', text: 'text-run-400' },
-		done:    { label: 'Done',    dot: 'bg-slate-600', text: 'text-slate-500' }
-	};
+  const done = [
+    { id: '#1', title: 'Fix dashboard buildWorkspaceSummaries', tags: 'done · sonnet · implementer' },
+    { id: '#2 · after #1', title: 'Getting Started onboarding tool — 7-step checklist', tags: 'done · sonnet · implementer' },
+    { id: '#3 · after #2', title: 'Getting Started — inline mini-wizards for GitHub, DNS…', tags: 'done · sonnet · implementer' },
+  ];
 </script>
 
-<MockWindow title="agent manager — default">
-	<div class="p-4">
-		<!-- column headers -->
-		<div class="mb-3 grid grid-cols-4 gap-2 text-center">
-			{#each ['Todo', 'Working', 'Review', 'Done'] as col}
-				<div class="rounded-lg bg-ink-800 py-1.5 text-xs font-semibold text-slate-400">{col}</div>
-			{/each}
-		</div>
+<MockAppShell project="Zeus" tab="board">
+  <div class="h-full bg-[#0d1117] overflow-hidden flex flex-col">
+    <!-- Toolbar -->
+    <div class="flex items-center gap-2 border-b border-[#30363d] px-3 py-1.5 shrink-0">
+      <button class="rounded px-2 py-0.5 text-[10px] font-semibold bg-gradient-to-r from-[#2f81f7] to-[#8b5cf6] text-white">🤖 Plan with Claude</button>
+      <button class="rounded px-2 py-0.5 text-[10px] font-semibold bg-[#238636] text-white">+ New ticket</button>
+      <div class="ml-auto flex items-center gap-1.5 text-[10px] text-[#8b949e]">
+        <button class="rounded border border-[#30363d] px-2 py-0.5 hover:text-white">↻ Refresh</button>
+        <button class="rounded border border-[#30363d] px-2 py-0.5 hover:text-white">🏊 Swimlanes</button>
+      </div>
+    </div>
 
-		<!-- cards laid out under correct column -->
-		<div class="grid grid-cols-4 gap-2 items-start">
-			{#each ['todo', 'working', 'review', 'done'] as col}
-				<div class="flex flex-col gap-2">
-					{#each tickets.filter(t => t.status === col) as ticket}
-						{@const sc = statusConfig[ticket.status]}
-						<div class="rounded-xl border border-ink-700 bg-ink-800/60 p-3 {ticket.status === 'working' ? 'border-ws-600/50' : ''}">
-							<div class="flex items-start justify-between gap-2">
-								<span class="font-mono text-[10px] text-slate-600">{ticket.id}</span>
-								<span class="flex items-center gap-1">
-									<span class="h-1.5 w-1.5 rounded-full {sc.dot}"></span>
-								</span>
-							</div>
-							<p class="mt-1.5 text-xs leading-snug text-slate-300">{ticket.title}</p>
-							{#if ticket.branch}
-								<p class="mt-2 font-mono text-[10px] text-slate-600">{ticket.branch}</p>
-							{/if}
-							{#if ticket.lines}
-								<p class="mt-1 font-mono text-[10px] {ticket.status === 'done' ? 'text-slate-600' : 'text-run-400'}">{ticket.lines}</p>
-							{/if}
-						</div>
-					{/each}
-				</div>
-			{/each}
-		</div>
-	</div>
-</MockWindow>
+    <!-- List/Board toggle -->
+    <div class="flex items-center gap-1 border-b border-[#30363d] px-3 py-1 shrink-0">
+      <button class="rounded px-2 py-0.5 text-[10px] text-[#8b949e]">List</button>
+      <button class="rounded bg-[#161b22] px-2 py-0.5 text-[10px] text-white border border-[#30363d]">Board</button>
+    </div>
+
+    <!-- Epic bar -->
+    <div class="flex items-center gap-2 border-b border-[#30363d] bg-[#161b22] px-3 py-1.5 shrink-0">
+      <span class="text-[11px] font-semibold text-[#c9d1d9]">🚀 zeus instance welcome</span>
+      <div class="mx-2 h-1.5 flex-1 rounded-full bg-[#21262d]">
+        <div class="h-full w-full rounded-full bg-[#3fb950]"></div>
+      </div>
+      <span class="text-[10px] text-[#8b949e]">3/3 done</span>
+      <button class="rounded border border-[#30363d] px-1.5 py-0.5 text-[10px] text-[#8b949e]">Discuss epic</button>
+      <button class="rounded border border-[#238636] px-1.5 py-0.5 text-[10px] text-[#3fb950]">✓ Test locally</button>
+      <button class="rounded bg-[#2f81f7] px-1.5 py-0.5 text-[10px] text-white">↗ Open epic PR</button>
+    </div>
+
+    <!-- Columns -->
+    <div class="grid grid-cols-4 gap-px bg-[#21262d] flex-1 overflow-hidden">
+      {#each ['TO DO', 'WORKING', 'NEEDS YOU', 'DONE'] as col}
+        <div class="bg-[#0d1117] p-2 overflow-y-auto">
+          <div class="mb-2 text-[9px] font-semibold uppercase tracking-wider text-[#484f58]">{col}</div>
+          {#if col === 'DONE'}
+            {#each done as t}
+              <div class="mb-1.5 rounded border border-[#30363d] bg-[#161b22] p-2">
+                <div class="text-[9px] text-[#484f58]">{t.id}</div>
+                <div class="mt-0.5 text-[10px] leading-snug text-[#c9d1d9]">{t.title}</div>
+                <div class="mt-1 text-[9px] text-[#484f58]">{t.tags}</div>
+                <div class="mt-1 flex items-center justify-between">
+                  <button class="rounded border border-[#30363d] px-1.5 py-0.5 text-[9px] text-[#8b949e]">Open</button>
+                  <span class="text-[#484f58] text-[10px]">×</span>
+                </div>
+              </div>
+            {/each}
+          {:else}
+            <div class="text-[10px] text-[#484f58] text-center mt-4">—</div>
+          {/if}
+        </div>
+      {/each}
+    </div>
+  </div>
+</MockAppShell>

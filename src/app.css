@@ -8,11 +8,11 @@
 	--color-ink-700: #1a1e2b;
 	--color-ink-600: #272c3d;
 
-	/* Ws: violet accent — the workspace brand color */
-	--color-ws-300: #c4b5fd;
-	--color-ws-400: #a78bfa;
-	--color-ws-500: #8b5cf6;
-	--color-ws-600: #7c3aed;
+	/* Ws: blue accent — the workspace brand color */
+	--color-ws-300: #93c5fd;
+	--color-ws-400: #60a5fa;
+	--color-ws-500: #2f81f7;
+	--color-ws-600: #1d6fe8;
 
 	/* Run: green for live/active status indicators */
 	--color-run-400: #4ade80;
@@ -28,7 +28,7 @@
 }
 .ws-glow {
 	background:
-		radial-gradient(60% 50% at 70% 10%, rgba(139, 92, 246, 0.2), transparent 70%),
+		radial-gradient(60% 50% at 70% 10%, rgba(47, 129, 247, 0.2), transparent 70%),
 		radial-gradient(40% 40% at 20% 0%, rgba(74, 222, 128, 0.06), transparent 70%);
 	animation: drift-glow 14s ease-in-out infinite;
 }
