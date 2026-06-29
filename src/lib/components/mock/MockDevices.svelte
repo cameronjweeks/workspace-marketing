@@ -1,21 +1,74 @@
 <script>
-  // Shared animation state — all devices show the same lines appearing at the same time
   let visible = $state(0);
 
   const lines = [
     { cls: 'text-[#8b949e]', text: '$ claude --dangerously-skip-permissions' },
     { cls: 'text-[#2f81f7]', text: '  Claude Code  ·  resuming session' },
     { cls: 'text-[#c9d1d9]', text: '  ↩  Continuing where you left off…' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#c9d1d9]', text: '> Implement the auth refresh flow' },
+    { cls: 'text-[#8b949e]',  text: '' },
     { cls: 'text-[#3fb950]', text: '  ✓ Reading server/routes.js' },
     { cls: 'text-[#3fb950]', text: '  ✓ Reading src/lib/session.js' },
-    { cls: 'text-[#c9d1d9]', text: '  → Writing token refresh middleware…' },
-    { cls: 'text-[#3fb950]', text: '  ✓ server/middleware.js  (+47 lines)' },
+    { cls: 'text-[#3fb950]', text: '  ✓ Reading server/middleware.js' },
+    { cls: 'text-[#c9d1d9]', text: '  → Planning implementation…' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#c9d1d9]', text: '  I\'ll add JWT refresh rotation with Redis.' },
+    { cls: 'text-[#c9d1d9]', text: '  Writing server/auth.js…' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#3fb950]', text: '  ✓ server/auth.js           (+94 lines)' },
+    { cls: 'text-[#3fb950]', text: '  ✓ server/middleware.js     (+47 lines)' },
+    { cls: 'text-[#3fb950]', text: '  ✓ src/lib/session.js       (+12 lines)' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#c9d1d9]', text: '  Running tests…' },
+    { cls: 'text-[#3fb950]', text: '  ✓ 24 passed  0 failed' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#c9d1d9]', text: '> Next: rate limiting middleware' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#3fb950]', text: '  ✓ Reading server/routes.js' },
+    { cls: 'text-[#c9d1d9]', text: '  → Writing rate-limit.js with Redis…' },
+    { cls: 'text-[#3fb950]', text: '  ✓ server/rate-limit.js     (+61 lines)' },
     { cls: 'text-[#3fb950]', text: '  ✓ Tests passing' },
+    { cls: 'text-[#8b949e]',  text: '' },
+    { cls: 'text-[#484f58]', text: '  — session running 4h 22m —' },
   ];
 
+  // How many lines to keep visible in the window (scroll effect)
+  const WINDOW = 14;
+
+  // Timings: fast for blank/status lines, slower for "thinking" lines
+  const delays = lines.map((l, i) =>
+    l.text === '' ? 120 : l.cls === 'text-[#c9d1d9]' && l.text.startsWith('  →') ? 600 : 280
+  );
+
   $effect(() => {
-    lines.forEach((_, i) => setTimeout(() => { visible = i + 1; }, i * 300 + 600));
+    let timeouts = [];
+    let offset = 0;
+
+    function schedule(start) {
+      offset = start;
+      lines.forEach((_, i) => {
+        const t = setTimeout(() => {
+          visible = i + 1;
+          // After last line, pause then restart
+          if (i === lines.length - 1) {
+            timeouts.push(setTimeout(() => {
+              visible = 0;
+              schedule(0);
+            }, 2800));
+          }
+        }, offset);
+        offset += delays[i];
+        timeouts.push(t);
+      });
+    }
+
+    schedule(500);
+    return () => timeouts.forEach(clearTimeout);
   });
+
+  // Slice to show only the last WINDOW lines (scroll effect)
+  let shown = $derived(lines.slice(Math.max(0, visible - WINDOW), visible));
 </script>
 
 <!--
@@ -95,12 +148,10 @@
                 running · 4h 22m
               </span>
             </div>
-            {#each lines.slice(0, visible) as line}
-              <div class="line-in leading-[1.6] {line.cls}" style="font-size:9px;">{line.text}</div>
+            {#each shown as line}
+              <div class="line-in leading-[1.6] {line.cls}" style="font-size:9px;">{line.text || ' '}</div>
             {/each}
-            {#if visible >= lines.length}
-              <span class="inline-block h-2.5 w-1.5 cursor-blink bg-[#2f81f7] align-middle"></span>
-            {/if}
+            <span class="inline-block h-2.5 w-1.5 cursor-blink bg-[#2f81f7] align-middle"></span>
           </div>
         </div>
       </div>
@@ -125,7 +176,8 @@
         <div class="flex h-5 shrink-0 items-center justify-between border-b border-[#30363d] px-2">
           <span class="text-[7px] font-medium text-[#c9d1d9]">Workspace <span class="text-[#2f81f7]">api-service</span></span>
           <span class="flex items-center gap-0.5 text-[#3fb950]" style="font-size:6.5px;">
-            <span class="h-1 w-1 rounded-full bg-[#3fb950]"></span>live
+            <span class="h-1 w-1 rounded-full bg-[#3fb950]"></span>
+            running
           </span>
         </div>
         <!-- Tabbar -->
@@ -137,15 +189,10 @@
         </div>
         <!-- Terminal output — same lines -->
         <div class="flex-1 overflow-hidden p-2" style="font-size:7px; line-height:1.55;">
-          <div class="mb-1 flex items-center justify-between">
-            <span class="text-[#484f58]">ws_api-service-1</span>
-          </div>
-          {#each lines.slice(0, visible) as line}
-            <div class="line-in {line.cls}">{line.text}</div>
+          {#each shown as line}
+            <div class="line-in {line.cls}">{line.text || ' '}</div>
           {/each}
-          {#if visible >= lines.length}
-            <span class="inline-block h-2 w-1 cursor-blink bg-[#2f81f7] align-middle"></span>
-          {/if}
+          <span class="inline-block h-2 w-1 cursor-blink bg-[#2f81f7] align-middle"></span>
         </div>
       </div>
       <!-- Bottom bezel -->
@@ -171,9 +218,7 @@
         <!-- Topbar -->
         <div class="flex h-4 shrink-0 items-center justify-between border-b border-[#30363d] px-1.5">
           <span class="text-[6px] text-[#2f81f7]">api-service</span>
-          <span class="flex items-center gap-0.5" style="font-size:5.5px; color:#3fb950;">
-            <span class="h-1 w-1 rounded-full bg-[#3fb950]"></span>live
-          </span>
+          <span class="h-1.5 w-1.5 rounded-full bg-[#3fb950] shadow-[0_0_3px_#3fb950]"></span>
         </div>
         <!-- Tabbar -->
         <div class="flex h-3.5 shrink-0 items-center border-b border-[#30363d] bg-[#161b22] px-1.5">
@@ -182,12 +227,10 @@
         </div>
         <!-- Terminal output — same lines, truncated to fit -->
         <div class="flex-1 overflow-hidden p-1.5" style="font-size:6px; line-height:1.55;">
-          {#each lines.slice(0, visible) as line}
-            <div class="line-in {line.cls} truncate">{line.text}</div>
+          {#each shown as line}
+            <div class="line-in {line.cls} truncate">{line.text || ' '}</div>
           {/each}
-          {#if visible >= lines.length}
-            <span class="inline-block h-2 w-0.5 cursor-blink bg-[#2f81f7] align-middle"></span>
-          {/if}
+          <span class="inline-block h-2 w-0.5 cursor-blink bg-[#2f81f7] align-middle"></span>
         </div>
       </div>
       <!-- Home indicator -->
