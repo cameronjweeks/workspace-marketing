@@ -1,0 +1,813 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Instant Domain Search" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Instant Domain Search" [ref=e8]
+          - navigation "Main" [ref=e11]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - button "Search" [ref=e15] [cursor=pointer]
+              - listitem [ref=e16]:
+                - button "Tools" [ref=e17] [cursor=pointer]
+              - listitem [ref=e18]:
+                - button "Resources" [ref=e19] [cursor=pointer]
+        - generic [ref=e20]:
+          - button "Toggle theme" [ref=e21] [cursor=pointer]:
+            - img [ref=e23]
+            - img [ref=e26]
+          - button "Saved domains" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+    - generic [ref=e37]:
+      - searchbox "Start typing here…" [ref=e38]
+      - button "Search" [ref=e40] [cursor=pointer]:
+        - img [ref=e41]
+      - generic [ref=e44]:
+        - link "Search Search" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - img "Search" [ref=e47]
+          - text: Search
+        - link "Extensions Extensions" [ref=e51] [cursor=pointer]:
+          - /url: /domain-extensions
+          - img "Extensions" [ref=e52]
+          - text: Extensions
+        - link "Generator Generator" [ref=e56] [cursor=pointer]:
+          - /url: /domain-generator
+          - img "Generator" [ref=e57]
+          - text: Generator
+        - link "Aftermarket Aftermarket" [ref=e63] [cursor=pointer]:
+          - /url: /aftermarket-domains
+          - img "Aftermarket" [ref=e64]
+          - text: Aftermarket
+    - main [ref=e67]:
+      - generic [ref=e74]:
+        - heading "Domain name search" [level=1] [ref=e75]
+        - heading "The fastest domain name search tool on the internet. Check domain availability across 800+ extensions, find popular TLDs, and buy premium domains as you type." [level=2] [ref=e76]
+    - generic [ref=e77]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "The fastest domain name search tool on the internet" [level=2] [ref=e83]
+            - heading "Instant Domain Search is the fastest domain name search engine and domain availability checker. Find, compare, and register available domain names across 800+ extensions (TLDs). We are an ICANN-accredited domain registrar, so you can check domain availability with confidence." [level=3] [ref=e84]:
+              - text: Instant Domain Search is the fastest domain name search engine and
+              - link "domain availability checker" [ref=e85] [cursor=pointer]:
+                - /url: /check
+              - text: . Find, compare, and register available domain names across 800+ extensions (TLDs). We are an
+              - link "ICANN-accredited domain registrar" [ref=e86] [cursor=pointer]:
+                - /url: https://www.icann.org/en/contracted-parties/accredited-registrars/list-of-accredited-registrars?page=1&iana-number=3952
+              - text: ", so you can check domain availability with confidence."
+          - generic [ref=e87]:
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - heading "Search icon Domain name search tool" [level=3] [ref=e92]:
+                    - img "Search icon" [ref=e93]
+                    - text: Domain name search tool
+                  - paragraph [ref=e96]: Search millions of domain names and check availability across 800+ extensions in real time as you type. Explore domain availability, pricing, and popularity so you can find the perfect domain name.
+                  - link "Try search" [ref=e97] [cursor=pointer]:
+                    - /url: /
+                    - text: Try search
+                    - img [ref=e98]
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - searchbox "Search for a domain" [ref=e103]: wickedfast
+                    - img [ref=e104]
+                  - generic [ref=e107]:
+                    - generic [ref=e108]:
+                      - generic [ref=e110]: wickedfast.com
+                      - generic [ref=e111]:
+                        - generic [ref=e112]: Continue
+                        - img [ref=e114]
+                    - generic [ref=e116]:
+                      - generic [ref=e118]: wickedfast.net
+                      - generic [ref=e119]:
+                        - generic [ref=e120]: Continue
+                        - img [ref=e122]
+                    - generic [ref=e124]:
+                      - generic [ref=e126]: wickedfast.org
+                      - generic [ref=e127]:
+                        - generic [ref=e128]: Continue
+                        - img [ref=e130]
+                    - generic [ref=e132]:
+                      - generic [ref=e134]: wickedfast.ai
+                      - generic [ref=e135]:
+                        - generic [ref=e136]: Continue
+                        - img [ref=e138]
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - heading "Extensions icon Check 800+ domain extensions" [level=3] [ref=e142]:
+                    - img "Extensions icon" [ref=e143]
+                    - text: Check 800+ domain extensions
+                  - paragraph [ref=e146]: Our domain name search instantly suggests the most popular, relevant, and cheapest domain extensions (.com, .org, .ai) to choose for your website URL.
+                  - link "Browse extensions" [ref=e147] [cursor=pointer]:
+                    - /url: /domain-extensions
+                    - text: Browse extensions
+                    - img [ref=e148]
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - img [ref=e152]
+                    - generic [ref=e155]: Available
+                    - generic [ref=e158]: Taken
+                    - generic [ref=e161]: Premium
+                  - generic [ref=e162]:
+                    - generic [ref=e163]:
+                      - img [ref=e164]
+                      - generic [ref=e168]: .com
+                      - img [ref=e169]
+                    - generic [ref=e171]:
+                      - img [ref=e172]
+                      - generic [ref=e176]: .net
+                      - img [ref=e177]
+                    - generic [ref=e179]:
+                      - img [ref=e180]
+                      - generic [ref=e184]: .org
+                      - img [ref=e185]
+                    - generic [ref=e187]:
+                      - img [ref=e188]
+                      - generic [ref=e192]: .ai
+                      - img [ref=e193]
+                    - generic [ref=e195]:
+                      - img [ref=e196]
+                      - generic [ref=e200]: .io
+                      - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e204]
+                      - generic [ref=e208]: .xyz
+                      - img [ref=e209]
+                    - generic [ref=e211]:
+                      - img [ref=e212]
+                      - generic [ref=e216]: .app
+                      - img [ref=e217]
+                    - generic [ref=e219]:
+                      - img [ref=e220]
+                      - generic [ref=e224]: .shop
+                      - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e228]
+                      - generic [ref=e232]: .info
+                      - img [ref=e233]
+                    - generic [ref=e235]:
+                      - img [ref=e236]
+                      - generic [ref=e240]: .co
+                      - img [ref=e241]
+                    - generic [ref=e243]:
+                      - img [ref=e244]
+                      - generic [ref=e248]: .dev
+                      - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e252]
+                      - generic [ref=e256]: .site
+                      - img [ref=e257]
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]:
+                  - heading "Generator icon Domain name generator" [level=3] [ref=e262]:
+                    - img "Generator icon" [ref=e263]
+                    - text: Domain name generator
+                  - paragraph [ref=e268]: Our AI domain name generator searches through millions of available domains to suggest the most creative, shortest, and unique names. Instantly go from idea to buying the domain.
+                  - link "Try generator" [ref=e269] [cursor=pointer]:
+                    - /url: /domain-generator
+                    - text: Try generator
+                    - img [ref=e270]
+                - generic [ref=e272]:
+                  - img [ref=e273]
+                  - img [ref=e276]
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: get
+                        - generic [ref=e283]: wickedfast
+                      - generic [ref=e284]:
+                        - paragraph [ref=e286]: .com
+                        - paragraph [ref=e288]: .ai
+                        - paragraph [ref=e290]: .io
+                        - paragraph [ref=e292]: .xyz
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - generic [ref=e295]: my
+                        - generic [ref=e296]: wickedfast
+                      - generic [ref=e297]:
+                        - paragraph [ref=e299]: .com
+                        - paragraph [ref=e301]: .ai
+                        - paragraph [ref=e303]: .io
+                        - paragraph [ref=e305]: .xyz
+                    - generic [ref=e306]:
+                      - generic [ref=e307]:
+                        - generic [ref=e308]: wickedfast
+                        - generic [ref=e309]: team
+                      - generic [ref=e310]:
+                        - paragraph [ref=e312]: .com
+                        - paragraph [ref=e314]: .ai
+                        - paragraph [ref=e316]: .io
+                        - paragraph [ref=e318]: .xyz
+              - generic [ref=e320]:
+                - heading "Premium icon Explore premium domain names" [level=3] [ref=e321]:
+                  - img "Premium icon" [ref=e322]
+                  - text: Explore premium domain names
+                - paragraph [ref=e325]: Our domain name finder recommends premium domains for sale that will make your website stand out. Discover undervalued domains with existing traffic, backlinks, and domain authority.
+                - link "Browse premium domains" [ref=e326] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                  - text: Browse premium domains
+                  - img [ref=e327]
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - heading "Bulk domain search" [level=3] [ref=e333]:
+                    - img [ref=e334]
+                    - text: Bulk domain search
+                  - paragraph [ref=e337]: The fastest bulk domain search tool with instant availability checking, CSV import, and one-click purchasing from multiple registrars.
+                  - link "Try bulk search" [ref=e338] [cursor=pointer]:
+                    - /url: /bulk-domain-search
+                    - text: Try bulk search
+                    - img [ref=e339]
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - generic [ref=e343]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - generic [ref=e347]: Domain_Shortlist.csv
+                      - generic [ref=e348]: 1,217 Domains
+                    - img [ref=e349]
+                  - generic [ref=e352]:
+                    - img [ref=e354]
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: neonforge.club
+                      - button [ref=e360] [cursor=pointer]:
+                        - img [ref=e361]
+                    - generic [ref=e364]:
+                      - generic [ref=e365]: pixelhaven.com
+                      - button [ref=e366] [cursor=pointer]:
+                        - img [ref=e367]
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: silk.ai
+                      - button [ref=e372] [cursor=pointer]:
+                        - img [ref=e373]
+                    - generic [ref=e376]:
+                      - generic [ref=e377]: azure.space
+                      - button [ref=e378] [cursor=pointer]:
+                        - img [ref=e379]
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: quantumloop.com
+                      - button [ref=e384] [cursor=pointer]:
+                        - img [ref=e385]
+                    - generic [ref=e388]:
+                      - generic [ref=e389]: crimson.luxury
+                      - button [ref=e390] [cursor=pointer]:
+                        - img [ref=e391]
+                    - textbox "Domain_Shortlist.csv 1,217 Domains neonforge.club pixelhaven.com silk.ai azure.space quantumloop.com crimson.luxury" [ref=e394]:
+                      - /placeholder: Type or paste more domains
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - heading "Domain checker" [level=3] [ref=e397]:
+                    - img [ref=e398]
+                    - text: Domain checker
+                  - paragraph [ref=e401]: Check if a domain name is available across 800+ extensions instantly. Compare registrar prices, see TLD competitiveness, explore aftermarket options, and find alternatives in one search.
+                  - link "Try checker" [ref=e402] [cursor=pointer]:
+                    - /url: /check
+                    - text: Try checker
+                    - img [ref=e403]
+                - generic [ref=e405]:
+                  - img [ref=e407]
+                  - img
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - img "GoDaddy" [ref=e413]
+                      - generic [ref=e414]: GoDaddy
+                      - generic [ref=e415]: $11.20
+                    - generic [ref=e416]:
+                      - img "Network Solutions" [ref=e418]
+                      - generic [ref=e419]: Network Solutions
+                      - generic [ref=e420]: $11.99
+                    - generic [ref=e421]:
+                      - img "Domain.com" [ref=e423]
+                      - generic [ref=e424]: Domain.com
+                      - generic [ref=e425]: $12.99
+                    - generic [ref=e426]:
+                      - img "Hostinger" [ref=e428]
+                      - generic [ref=e429]: Hostinger
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - heading "Search domains by TLD extensions" [level=2] [ref=e434]
+              - paragraph [ref=e435]: Each TLD has its own search tool with live availability, pricing data, and market stats. Pick any extension and start searching.
+            - generic [ref=e436]:
+              - link ".com" [ref=e437] [cursor=pointer]:
+                - /url: /domain-extensions/com
+                - text: .com
+                - img [ref=e438]
+              - link ".ai" [ref=e441] [cursor=pointer]:
+                - /url: /domain-extensions/ai
+                - text: .ai
+                - img [ref=e442]
+              - link ".io" [ref=e445] [cursor=pointer]:
+                - /url: /domain-extensions/io
+                - text: .io
+                - img [ref=e446]
+              - link ".net" [ref=e449] [cursor=pointer]:
+                - /url: /domain-extensions/net
+                - text: .net
+                - img [ref=e450]
+              - link ".org" [ref=e453] [cursor=pointer]:
+                - /url: /domain-extensions/org
+                - text: .org
+                - img [ref=e454]
+              - link ".info" [ref=e457] [cursor=pointer]:
+                - /url: /domain-extensions/info
+                - text: .info
+                - img [ref=e458]
+              - link ".app" [ref=e461] [cursor=pointer]:
+                - /url: /domain-extensions/app
+                - text: .app
+                - img [ref=e462]
+              - link ".co" [ref=e465] [cursor=pointer]:
+                - /url: /domain-extensions/co
+                - text: .co
+                - img [ref=e466]
+              - link ".me" [ref=e469] [cursor=pointer]:
+                - /url: /domain-extensions/me
+                - text: .me
+                - img [ref=e470]
+              - link ".online" [ref=e473] [cursor=pointer]:
+                - /url: /domain-extensions/online
+                - text: .online
+                - img [ref=e474]
+              - link ".xyz" [ref=e477] [cursor=pointer]:
+                - /url: /domain-extensions/xyz
+                - text: .xyz
+                - img [ref=e478]
+              - link ".dev" [ref=e481] [cursor=pointer]:
+                - /url: /domain-extensions/dev
+                - text: .dev
+                - img [ref=e482]
+            - link "Search all" [ref=e485] [cursor=pointer]:
+              - /url: /domain-extensions
+              - text: Search all
+              - img [ref=e486]
+          - generic [ref=e488]:
+            - generic [ref=e489]:
+              - button ".com" [ref=e490] [cursor=pointer]:
+                - generic [ref=e491]: .com
+                - img [ref=e492]
+              - generic [ref=e494]:
+                - generic [ref=e495]: YoY growth
+                - generic [ref=e496]: "|"
+                - img [ref=e497]
+                - generic [ref=e500]: +18%
+            - generic [ref=e503]:
+              - generic [ref=e504]:
+                - generic [ref=e505]: 400M
+                - generic [ref=e506]: 300M
+                - generic [ref=e507]: 200M
+                - generic [ref=e508]: 100M
+                - generic [ref=e509]: "0"
+              - generic [ref=e510]:
+                - img [ref=e511]
+                - img "Domain registration growth chart showing upward trend" [ref=e512]
+              - generic [ref=e516]:
+                - generic [ref=e517]: "2020"
+                - generic [ref=e518]: "2021"
+                - generic [ref=e519]: "2022"
+                - generic [ref=e520]: "2023"
+                - generic [ref=e521]: "2024"
+                - generic [ref=e522]: "2025"
+                - generic [ref=e523]: "2026"
+            - generic [ref=e524]:
+              - generic [ref=e525]:
+                - img [ref=e526]
+                - generic [ref=e529]: Total .com domains
+                - generic [ref=e530]: 307,235,901
+              - generic [ref=e531]:
+                - img [ref=e532]
+                - generic [ref=e534]: New this month
+                - generic [ref=e535]: 4,579,955
+        - generic [ref=e536]:
+          - generic [ref=e537]:
+            - heading "Domain availability features that go beyond a basic domain search" [level=2] [ref=e538]
+            - heading "Compare prices across registrars, explore domain history, look up ownership with WHOIS, estimate domain value, and discover premium domains for sale — all while checking domain availability across 800+ extensions." [level=3] [ref=e539]
+          - generic [ref=e540]:
+            - generic [ref=e541]:
+              - link "Domain name checker Check domain availability across 800+ extensions instantly. Search millions of domain names and find the best available domains with results as you type." [ref=e542] [cursor=pointer]:
+                - /url: /check
+                - img [ref=e543]
+                - heading "Domain name checker" [level=3] [ref=e546]
+                - paragraph [ref=e547]: Check domain availability across 800+ extensions instantly. Search millions of domain names and find the best available domains with results as you type.
+              - generic [ref=e548]:
+                - img [ref=e549]
+                - heading "Domain price comparison" [level=3] [ref=e553]
+                - paragraph [ref=e554]: Compare domain registrar pricing in real time to find available domain names at the lowest prices across top registrars.
+              - generic [ref=e555]:
+                - img [ref=e556]
+                - heading "Domain history & insights" [level=3] [ref=e560]
+                - paragraph [ref=e561]: Track domain ownership, expiration, and value trends. Find domain names that already have traffic, backlinks, or SEO authority.
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - img [ref=e565]
+                - heading "WHOIS lookup" [level=3] [ref=e572]
+                - paragraph [ref=e573]: Look up domain name ownership history and registrant information instantly with our built-in WHOIS lookup.
+              - generic [ref=e574]:
+                - img [ref=e575]
+                - heading "Domain value estimates" [level=3] [ref=e578]
+                - paragraph [ref=e579]: Estimate how much a domain name might be worth using real market data, comparable sales, and traffic insights.
+              - generic [ref=e580]:
+                - img [ref=e581]
+                - heading "Premium domain marketplace" [level=3] [ref=e584]
+                - paragraph [ref=e585]: Explore high-quality premium domain names optimized for branding, traffic, and long-term value.
+        - generic [ref=e589]:
+          - generic [ref=e590]:
+            - heading "How to choose the best domain name" [level=2] [ref=e591]
+            - heading "Choosing the right domain name is critical for your website. When you combine it with the right extension, it becomes even more powerful." [level=3] [ref=e592]
+          - generic [ref=e593]:
+            - generic [ref=e594]:
+              - generic [ref=e595]:
+                - img [ref=e596]
+                - heading "Relevant" [level=3] [ref=e600]
+                - paragraph [ref=e601]: Your domain name should connect to your brand, business, and web content. It should give visitors a clear idea of what to expect when they land on your site.
+              - generic [ref=e602]:
+                - img [ref=e603]
+                - heading "Memorable" [level=3] [ref=e605]
+                - paragraph [ref=e606]: Great domain names stick in people's minds and stand out from the crowd. Avoid complex or confusing words that challenge spelling.
+            - generic [ref=e608]:
+              - generic [ref=e609]:
+                - img [ref=e610]
+                - heading "Short" [level=3] [ref=e612]
+                - paragraph [ref=e613]: Short domains are easier to remember and type. Avoid unnecessary words or hyphens that can make your domain name hard to remember.
+              - generic [ref=e614]:
+                - img [ref=e615]
+                - heading "On-brand" [level=3] [ref=e618]
+                - paragraph [ref=e619]: Your domain name and extension offer an opportunity to reinforce your brand identity. Extensions and TLDs specific to your industry can enhance the relevance and credibility of your website.
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - heading "Learn more from domain experts" [level=2] [ref=e622]
+            - heading "Explore domains from the fundamentals of buying domains to the technology behind Instant Domain Search." [level=3] [ref=e623]
+          - generic [ref=e624]:
+            - generic [ref=e625]:
+              - generic [ref=e626]:
+                - heading "Domain guides for beginners" [level=3] [ref=e627]:
+                  - link "Domain guides for beginners" [ref=e628] [cursor=pointer]:
+                    - /url: /learn/guides
+                - link "Read all guides" [ref=e629] [cursor=pointer]:
+                  - /url: /learn/guides
+                  - text: Read all guides
+                  - img [ref=e630]
+              - list [ref=e632]:
+                - listitem [ref=e633]:
+                  - link "How to Check if a Domain Name is Available" [ref=e634] [cursor=pointer]:
+                    - /url: /learn/guides/how-to-check-domain-availability
+                    - generic [ref=e635]: How to Check if a Domain Name is Available
+                    - img [ref=e636]
+                - listitem [ref=e638]:
+                  - link "Best Domain Name Generators in 2026" [ref=e639] [cursor=pointer]:
+                    - /url: /learn/guides/best-domain-name-generators-2026
+                    - generic [ref=e640]: Best Domain Name Generators in 2026
+                    - img [ref=e641]
+                - listitem [ref=e643]:
+                  - link "Top 20 Domain Sales of 2026 (Live Tracker)" [ref=e644] [cursor=pointer]:
+                    - /url: /learn/guides/top-domain-sales-2026
+                    - generic [ref=e645]: Top 20 Domain Sales of 2026 (Live Tracker)
+                    - img [ref=e646]
+                - listitem [ref=e648]:
+                  - link "Best Domain Registrars in 2026" [ref=e649] [cursor=pointer]:
+                    - /url: /learn/guides/best-domain-registrars-2026
+                    - generic [ref=e650]: Best Domain Registrars in 2026
+                    - img [ref=e651]
+            - generic [ref=e653]:
+              - generic [ref=e654]:
+                - heading "Our best-kept tech secrets" [level=3] [ref=e655]:
+                  - link "Our best-kept tech secrets" [ref=e656] [cursor=pointer]:
+                    - /url: /learn/research
+                - link "Read research posts" [ref=e657] [cursor=pointer]:
+                  - /url: /learn/research
+                  - text: Read research posts
+                  - img [ref=e658]
+              - list [ref=e660]:
+                - listitem [ref=e661]:
+                  - link "Building Fast AI for Domain Search" [ref=e662] [cursor=pointer]:
+                    - /url: /learn/research/building-fast-ai
+                    - generic [ref=e663]: Building Fast AI for Domain Search
+                    - img [ref=e664]
+                - listitem [ref=e666]:
+                  - link "Word Segmentation with Rust" [ref=e667] [cursor=pointer]:
+                    - /url: /learn/research/instant-word-segmentation-with-rust
+                    - generic [ref=e668]: Word Segmentation with Rust
+                    - img [ref=e669]
+                - listitem [ref=e671]:
+                  - link "How To Use fastText For Instant Translations" [ref=e672] [cursor=pointer]:
+                    - /url: /learn/research/how-to-use-fasttext-for-instant-translations
+                    - generic [ref=e673]: How To Use fastText For Instant Translations
+                    - img [ref=e674]
+                - listitem [ref=e676]:
+                  - link "Pronounceable Domain Names, New Audio Feature" [ref=e677] [cursor=pointer]:
+                    - /url: /learn/research/pronounceable-domain-names
+                    - generic [ref=e678]: Pronounceable Domain Names, New Audio Feature
+                    - img [ref=e679]
+        - generic [ref=e681]:
+          - heading "500 million domain searches and counting..." [level=2] [ref=e683]
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - paragraph [ref=e686]: I've used Instant Domain Search for years. It's the fastest way to find and check domain availability.
+              - generic [ref=e687]:
+                - generic [ref=e688]:
+                  - img "HubSpot logo" [ref=e690]
+                  - img "Dharmesh Shah" [ref=e692]
+                - generic [ref=e693]:
+                  - paragraph [ref=e694]: Dharmesh Shah
+                  - paragraph [ref=e695]: Founder, HubSpot
+            - generic [ref=e696]:
+              - paragraph [ref=e697]: Instant is one of those tools I show people and they immediately get it.
+              - generic [ref=e698]:
+                - generic [ref=e699]:
+                  - img "Clay logo" [ref=e701]
+                  - img "Pranav Mital" [ref=e703]
+                - generic [ref=e704]:
+                  - paragraph [ref=e705]: Pranav Mital
+                  - paragraph [ref=e706]: PM, Clay
+            - generic [ref=e707]:
+              - paragraph [ref=e708]: Blown away with the speed, haven't seen anything like it before.
+              - generic [ref=e709]:
+                - generic [ref=e710]:
+                  - img "Figma logo" [ref=e712]
+                  - img "Noah Finer" [ref=e714]
+                - generic [ref=e715]:
+                  - paragraph [ref=e716]: Noah Finer
+                  - paragraph [ref=e717]: Software Engineer, Figma
+          - generic [ref=e718]:
+            - paragraph [ref=e719]: And many more...
+            - generic [ref=e720]:
+              - link "Paul Graham Paul Graham" [ref=e721] [cursor=pointer]:
+                - /url: https://x.com/paulg/status/1910825902742585640
+                - img "Paul Graham" [ref=e723]
+                - generic [ref=e724]:
+                  - generic [ref=e725]: Paul Graham
+                  - img [ref=e726]
+              - link "TechCrunch TechCrunch" [ref=e729] [cursor=pointer]:
+                - /url: https://techcrunch.com/2005/11/13/ajaxed-domain-names-search/
+                - img "TechCrunch" [ref=e731]
+                - generic [ref=e732]:
+                  - generic [ref=e733]: TechCrunch
+                  - img [ref=e734]
+              - link "Y Combinator Y Combinator" [ref=e737] [cursor=pointer]:
+                - /url: https://www.ycombinator.com/companies/instant-labs
+                - img "Y Combinator" [ref=e739]
+                - generic [ref=e740]:
+                  - generic [ref=e741]: Y Combinator
+                  - img [ref=e742]
+              - link "Ad Age Ad Age" [ref=e745] [cursor=pointer]:
+                - /url: https://adage.com/article/the-media-guy/media-guy-s-pop-pick-instant-domain-search/114445/
+                - img "Ad Age" [ref=e747]
+                - generic [ref=e748]:
+                  - generic [ref=e749]: Ad Age
+                  - img [ref=e750]
+              - link "Lifehacker Lifehacker" [ref=e753] [cursor=pointer]:
+                - /url: https://lifehacker.com/come-up-with-the-perfect-name-for-anything-with-these-h-1795448126
+                - img "Lifehacker" [ref=e755]
+                - generic [ref=e756]:
+                  - generic [ref=e757]: Lifehacker
+                  - img [ref=e758]
+              - link "Domain Name Wire Domain Name Wire" [ref=e761] [cursor=pointer]:
+                - /url: https://domainnamewire.com/2026/04/13/instant-domain-names-dnw-podcast-582/
+                - img "Domain Name Wire" [ref=e763]
+                - generic [ref=e764]:
+                  - generic [ref=e765]: Domain Name Wire
+                  - img [ref=e766]
+        - generic [ref=e769]:
+          - heading "Domain Name Search & Availability FAQs" [level=2] [ref=e771]
+          - generic [ref=e772]:
+            - generic [ref=e773]:
+              - heading "What is the best domain name search tool?" [level=3] [ref=e774]
+              - paragraph [ref=e776]:
+                - text: Instant Domain Search is the fastest domain name search tool on the internet. It checks availability across
+                - link "800+ extensions" [ref=e777] [cursor=pointer]:
+                  - /url: /domain-extensions
+                - text: in under 25 milliseconds as you type. No clicking "search" and waiting for a loading screen. Unlike single-registrar tools (like GoDaddy or Namecheap's search), IDS queries 8 registrars simultaneously and compares pricing in real time, so you see the lowest price for every domain. We also aggregate results from
+                - link "5+ aftermarket marketplaces" [ref=e778] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: like Afternic, Sedo, and Atom, surface
+                - link "AI-generated name suggestions" [ref=e779] [cursor=pointer]:
+                  - /url: /domain-generator
+                - text: ", and never share your searches with registrars, meaning no one can front-run the domains you're looking for."
+            - generic [ref=e780]:
+              - heading "Why use Instant Domain Search instead of searching at a registrar?" [level=3] [ref=e781]
+              - paragraph [ref=e783]:
+                - text: When you search on a single registrar like GoDaddy, you only see their pricing and their inventory. Instant Domain Search queries multiple registrars at once (including GoDaddy, Namecheap, Hostinger, Dynadot, and others) and shows you the cheapest option for each domain. You also get results from
+                - link "aftermarket marketplaces" [ref=e784] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: and our
+                - link "AI domain name generator" [ref=e785] [cursor=pointer]:
+                  - /url: /domain-generator
+                - text: in the same search. And because your searches never touch registrar databases, there's zero risk of domain front-running. It's the difference between checking one store's price vs. having a comparison engine do it for you instantly.
+            - generic [ref=e786]:
+              - heading "How do I check if a domain name is available?" [level=3] [ref=e787]
+              - paragraph [ref=e789]:
+                - text: Type any word or phrase into the search bar above. Instant Domain Search checks
+                - link "domain availability" [ref=e790] [cursor=pointer]:
+                  - /url: /
+                - text: "across every major extension in real time as you type. Green results mean the domain is available for registration; you'll also see pricing from multiple registrars so you can compare. If the exact .com is taken, we instantly show alternatives: available variations, different"
+                - link "extensions" [ref=e791] [cursor=pointer]:
+                  - /url: /domain-extensions
+                - text: ","
+                - link "AI-generated suggestions" [ref=e792] [cursor=pointer]:
+                  - /url: /domain-generator
+                - text: ", and"
+                - link "aftermarket domains" [ref=e793] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: that are for sale. For bulk lookups, use our
+                - link "bulk domain search tool" [ref=e794] [cursor=pointer]:
+                  - /url: /bulk-domain-search
+                - text: to check hundreds of domains from a list.
+            - generic [ref=e795]:
+              - heading "What is a domain name?" [level=3] [ref=e796]
+              - paragraph [ref=e798]:
+                - text: "A domain name is the address people type into their browser to visit a website, like instantdomainsearch.com or google.com. It has two parts: the name you choose (like \"instantdomainsearch\") and the extension (like \".com\"). Behind the scenes, the Domain Name System (DNS) translates that human-readable name into an IP address so your browser knows which server to connect to. Read our full guide on"
+                - link "what a domain name is and how it works" [ref=e799] [cursor=pointer]:
+                  - /url: /learn/guides/what-is-a-domain-name
+                - text: .
+            - generic [ref=e800]:
+              - heading "How much does a domain name cost?" [level=3] [ref=e801]
+              - paragraph [ref=e803]:
+                - text: Most standard domains cost $8–15/year for popular extensions like .com, .net, and .org. Newer extensions like .io ($25–50/yr) and .ai ($50–90/yr) cost more. Premium domains (short, memorable names that someone already owns) sell for hundreds to millions on the aftermarket. Instant Domain Search shows you real-time pricing from 8 registrars side by side, so you can find the lowest price without visiting each registrar individually. We also negotiate volume discounts with registrars and pass those savings through to you. See our guide on
+                - link "how much domain names cost" [ref=e804] [cursor=pointer]:
+                  - /url: /learn/guides/how-much-does-a-domain-name-cost
+                - text: for a detailed breakdown.
+            - generic [ref=e805]:
+              - heading "What if the domain name I want is already taken?" [level=3] [ref=e806]
+              - generic [ref=e807]:
+                - paragraph [ref=e808]: "You have several good options:"
+                - list [ref=e809]:
+                  - listitem [ref=e810]:
+                    - text: "Try a different extension: If \"example.com\" is taken, check"
+                    - link "800+ other extensions" [ref=e811] [cursor=pointer]:
+                      - /url: /domain-extensions
+                    - text: . Maybe example.io, example.co, or example.app is available.
+                  - listitem [ref=e812]:
+                    - text: "Generate alternatives: Our"
+                    - link "AI domain name generator" [ref=e813] [cursor=pointer]:
+                      - /url: /domain-generator
+                    - text: suggests creative variations based on your original idea. You can also try our
+                    - link "business name generator" [ref=e814] [cursor=pointer]:
+                      - /url: /business-name-generator
+                    - text: for brand-focused suggestions.
+                  - listitem [ref=e815]:
+                    - text: "Buy it on the aftermarket: Many taken domains are actually for sale. Our"
+                    - link "aftermarket search" [ref=e816] [cursor=pointer]:
+                      - /url: /aftermarket-domains
+                    - text: checks Afternic, Sedo, Atom, and other marketplaces simultaneously so you can find the owner's asking price or make an offer.
+                  - listitem [ref=e817]:
+                    - text: "Find expiring domains: Domains that aren't renewed become available again. Browse"
+                    - link "expiring domains" [ref=e818] [cursor=pointer]:
+                      - /url: /expired-domains
+                    - text: to find names with existing traffic, backlinks, or SEO value.
+                  - listitem [ref=e819]: "Contact the owner: Use a WHOIS lookup to find owner details. Some owners are open to selling even if the domain isn't formally listed."
+            - generic [ref=e820]:
+              - heading "What domain extension should I choose?" [level=3] [ref=e821]
+              - paragraph [ref=e823]:
+                - text: For most businesses, .com is still the default. It's what people type instinctively. But it's not the only good option. Tech companies often use .io or .ai, nonprofits use .org, and industry-specific
+                - link "extensions" [ref=e824] [cursor=pointer]:
+                  - /url: /domain-extensions
+                - text: like .app, .dev, .store, or .design can reinforce your brand. Country-code TLDs like .ca, .co.uk, or .de work well for businesses serving specific regions. The right extension depends on your audience, industry, and whether the .com is available at a reasonable price. Use our
+                - link "domain extensions page" [ref=e825] [cursor=pointer]:
+                  - /url: /domain-extensions
+                - text: to browse all 800+ options and see pricing. Learn more in our guide to
+                - link "popular domain extensions" [ref=e826] [cursor=pointer]:
+                  - /url: /learn/guides/popular-domain-extensions-2026
+                - text: .
+            - generic [ref=e827]:
+              - heading "Is Instant Domain Search safe and private?" [level=3] [ref=e828]
+              - paragraph [ref=e830]:
+                - text: Yes. We've been providing free domain name search since 2005 and we're
+                - link "ICANN-accredited" [ref=e831] [cursor=pointer]:
+                  - /url: https://www.icann.org/en/contracted-parties/accredited-registrars/list-of-accredited-registrars?page=1&iana-number=3952
+                - text: . Two things set us apart on safety. First, your searches are never shared with registrars or any third party. No one can see what you searched and register it before you do (a practice called domain front-running). Second, we show results from multiple registrars so you can compare options rather than being locked into one provider's pricing. We make money through small referral fees when you register through our links, and the price you pay is the same as going directly to the registrar. All searches are encrypted over HTTPS. Read our full
+                - link "security policy" [ref=e832] [cursor=pointer]:
+                  - /url: /security
+                - text: and
+                - link "privacy policy" [ref=e833] [cursor=pointer]:
+                  - /url: /policies/privacy
+                - text: .
+            - generic [ref=e834]:
+              - heading "How does Instant Domain Search make money?" [level=3] [ref=e835]
+              - paragraph [ref=e837]:
+                - text: We earn small referral fees when you register a domain through one of our registrar links. The price you pay is identical to what you'd pay going to the registrar directly. We never mark up domain prices. Because we partner with 8+ registrars, we're incentivized to show you the best price, not push a single provider. This model lets us keep our
+                - link "domain search" [ref=e838] [cursor=pointer]:
+                  - /url: /
+                - text: ","
+                - link "name generator" [ref=e839] [cursor=pointer]:
+                  - /url: /domain-generator
+                - text: ","
+                - link "aftermarket search" [ref=e840] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: ","
+                - link "bulk checker" [ref=e841] [cursor=pointer]:
+                  - /url: /bulk-domain-search
+                - text: ", and all other tools completely free. We've operated this way since 2005."
+            - generic [ref=e842]:
+              - heading "What is a domain registrar?" [level=3] [ref=e843]
+              - paragraph [ref=e845]:
+                - text: A domain registrar is a company accredited by
+                - link "ICANN" [ref=e846] [cursor=pointer]:
+                  - /url: https://www.icann.org/
+                - text: to sell and manage domain name registrations. Popular registrars include GoDaddy, Namecheap, Cloudflare, and Hostinger. Each registrar sets its own pricing, renewal fees, and included features (like WHOIS privacy or DNS management). Instant Domain Search compares pricing across 8 registrars in real time so you can find the best deal without checking each one individually. We're also an ICANN-accredited registrar ourselves, which means we meet strict security and operational standards.
+            - generic [ref=e847]:
+              - heading "Can I search for domains in bulk?" [level=3] [ref=e848]
+              - paragraph [ref=e850]:
+                - text: Yes. Our
+                - link "bulk domain search tool" [ref=e851] [cursor=pointer]:
+                  - /url: /bulk-domain-search
+                - text: lets you check availability for hundreds of domain names at once. Paste a list or upload a CSV, and we'll check each one across multiple extensions and registrars. You can filter results by availability, extension, and price. It's useful for brand protection (checking your name across many TLDs), portfolio management, or evaluating a list of business name ideas. Results can be exported for further analysis.
+            - generic [ref=e852]:
+              - heading "How do I buy a domain name once I find one?" [level=3] [ref=e853]
+              - paragraph [ref=e855]:
+                - text: Once you find an available domain using our
+                - link "search tool" [ref=e856] [cursor=pointer]:
+                  - /url: /
+                - text: ", click the registrar link next to it to go directly to their checkout. We show you pricing from multiple registrars so you can pick the cheapest option. For"
+                - link "aftermarket domains" [ref=e857] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: (domains someone already owns), you'll be directed to the marketplace where it's listed to complete the purchase or make an offer. After buying, you'll point the domain to your website host using DNS settings. Most registrars have guides for this. If you're new to the process, read our step-by-step guide on
+                - link "how to buy a domain name" [ref=e858] [cursor=pointer]:
+                  - /url: /learn/guides/how-to-buy-a-domain-name
+                - text: .
+      - contentinfo [ref=e859]:
+        - generic [ref=e860]:
+          - img "Instant Domain Search" [ref=e862]
+          - generic [ref=e871]:
+            - generic [ref=e872]:
+              - heading "Finding domains" [level=2] [ref=e873]
+              - generic [ref=e874]:
+                - link "Domain name search" [ref=e875] [cursor=pointer]:
+                  - /url: /
+                - link "Domain extensions" [ref=e876] [cursor=pointer]:
+                  - /url: /domain-extensions
+                - link "Domain generator" [ref=e877] [cursor=pointer]:
+                  - /url: /domain-generator
+                - link "Aftermarket domains" [ref=e878] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - link "Expired domains" [ref=e879] [cursor=pointer]:
+                  - /url: /expired-domains
+                - link "Bulk domain search" [ref=e880] [cursor=pointer]:
+                  - /url: /bulk-domain-search
+                - link "Domain checker" [ref=e881] [cursor=pointer]:
+                  - /url: /check
+            - generic [ref=e882]:
+              - heading "Domain tools" [level=2] [ref=e883]
+              - generic [ref=e884]:
+                - link "Search by TLD" [ref=e885] [cursor=pointer]:
+                  - /url: /domain-extensions/ai
+                - link "Name generator" [ref=e886] [cursor=pointer]:
+                  - /url: /business-name-generator
+                - link "Domain search MCP" [ref=e887] [cursor=pointer]:
+                  - /url: /mcp
+                - link "Reverse dictionary" [ref=e888] [cursor=pointer]:
+                  - /url: /words
+                - link "WHOIS lookup" [ref=e889] [cursor=pointer]:
+                  - /url: /whois-lookup
+                - link "Registrar" [ref=e890] [cursor=pointer]:
+                  - /url: https://instant.domains/login
+                - link "Domain directory" [ref=e891] [cursor=pointer]:
+                  - /url: /directory
+                - link "Time machine" [ref=e892] [cursor=pointer]:
+                  - /url: /time-machine
+          - generic [ref=e893]:
+            - generic [ref=e894]:
+              - heading "Resources" [level=2] [ref=e895]
+              - generic [ref=e896]:
+                - link "Domain lists" [ref=e897] [cursor=pointer]:
+                  - /url: /lists
+                - link "Blog" [ref=e898] [cursor=pointer]:
+                  - /url: /learn
+                - link "FAQs" [ref=e899] [cursor=pointer]:
+                  - /url: /faq
+                - link "Security" [ref=e900] [cursor=pointer]:
+                  - /url: /security
+                - link "Terms" [ref=e901] [cursor=pointer]:
+                  - /url: /policies/terms
+                - link "Privacy" [ref=e902] [cursor=pointer]:
+                  - /url: /policies/privacy
+            - generic [ref=e903]:
+              - heading "Company" [level=2] [ref=e904]
+              - generic [ref=e905]:
+                - link "About" [ref=e906] [cursor=pointer]:
+                  - /url: /about
+                - link "Contact" [ref=e907] [cursor=pointer]:
+                  - /url: /contact
+                - link "GitHub" [ref=e908] [cursor=pointer]:
+                  - /url: https://github.com/instant-labs/
+                - link "X" [ref=e909] [cursor=pointer]:
+                  - /url: https://x.com/instantai
+                - link "LinkedIn" [ref=e910] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/instant-ai/
+        - separator [ref=e911]
+        - generic [ref=e912]:
+          - generic [ref=e913]: Instant Domain Search © 2026
+          - generic [ref=e914]:
+            - text: An
+            - link "ICANN-accredited" [ref=e915] [cursor=pointer]:
+              - /url: https://www.icann.org/en/contracted-parties/accredited-registrars/list-of-accredited-registrars?page=1&iana-number=3952
+            - text: domain registrar
+          - generic [ref=e916]:
+            - text: Designed and built by
+            - link "instant.ai" [ref=e917] [cursor=pointer]:
+              - /url: https://instant.ai
+          - img "Mascot illustration" [ref=e918]
+  - region "Notifications alt+T"

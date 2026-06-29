@@ -1,0 +1,292 @@
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Instant Domain Search" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Instant Domain Search" [ref=e8]
+        - navigation "Main" [ref=e11]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - button "Search" [ref=e15] [cursor=pointer]
+            - listitem [ref=e16]:
+              - button "Tools" [ref=e17] [cursor=pointer]
+            - listitem [ref=e18]:
+              - button "Resources" [ref=e19] [cursor=pointer]
+      - generic [ref=e20]:
+        - button "Toggle theme" [ref=e21] [cursor=pointer]:
+          - img [ref=e23]
+          - img [ref=e26]
+        - button "Saved domains" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Domain Checker" [level=1] [ref=e42]
+          - paragraph [ref=e43]: Check domain availability across 800+ extensions instantly. Compare registrar prices, see TLD competitiveness, explore aftermarket options for taken domains, and find alternatives in one search.
+        - generic [ref=e45]:
+          - searchbox "Start checking domain availability" [active] [ref=e46]
+          - button "Search" [ref=e48] [cursor=pointer]:
+            - img [ref=e49]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - heading "How to check domain availability instantly" [level=2] [ref=e54]
+            - paragraph [ref=e55]: When you check domain availability, we run live WHOIS and RDAP queries against registries worldwide. No cached data, no guessing. Instant Domain Search checks availability across 800+ TLDs simultaneously, so you get real-time results in milliseconds. As an ICANN-accredited registrar, we query authoritative sources directly.
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - img "Instant Domain Search" [ref=e66]
+            - img [ref=e71]
+            - img [ref=e76]
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - heading "A domain checker that does more than check domain names" [level=2] [ref=e84]
+            - paragraph [ref=e85]: "Most domain checkers tell you if a name is taken or available. Our domain availability checker gives you everything you need to make a decision: pricing, alternatives, market data, and purchase options in a single search."
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - img [ref=e90]
+                  - heading "800+ TLDs checked instantly" [level=3] [ref=e93]
+                - paragraph [ref=e94]: Live WHOIS and RDAP queries against registries worldwide. Not cached results — real-time availability data for every extension.
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - img [ref=e98]
+                  - heading "TLD competitiveness score" [level=3] [ref=e100]
+                - paragraph [ref=e101]: See how many of the 800+ extensions are available vs. taken for your name. A high availability ratio signals a unique, brandable name.
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - img [ref=e105]
+                  - heading "Registrar price comparison" [level=3] [ref=e109]
+                - paragraph [ref=e110]: Side-by-side pricing from GoDaddy, Namecheap, Shopify, Hostinger, and more. Find the best deal without visiting multiple sites.
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - img [ref=e114]
+                  - heading "Aftermarket listings" [level=3] [ref=e117]
+                - paragraph [ref=e118]: If a domain is taken, see aftermarket purchase options from Dan.com, Sedo, Atom, and other marketplaces with listed prices.
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - img [ref=e122]
+                  - heading "Alternative name suggestions" [level=3] [ref=e125]
+                - paragraph [ref=e126]: Get AI-generated domain name alternatives when your first choice is unavailable. Creative variations you might not have considered.
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - img [ref=e130]
+                  - heading "Live website preview" [level=3] [ref=e134]
+                - paragraph [ref=e135]: See what's currently on any taken domain without leaving the page. Understand what you're competing with before making a decision.
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - heading "Understanding domain availability status" [level=2] [ref=e138]
+            - paragraph [ref=e139]: What "available," "registered," "reserved," and "premium" actually mean. Each domain in your search results is tagged with a color-coded status so you can instantly understand its availability. Some domains show as available but can't be registered at standard pricing — these are premium domains with higher fees set by the registry.
+          - generic [ref=e141]:
+            - generic [ref=e144]:
+              - img [ref=e146]
+              - generic [ref=e151]: aftermarket
+              - img [ref=e153]
+            - generic [ref=e157]:
+              - img [ref=e159]
+              - generic [ref=e164]: available
+              - img [ref=e166]
+            - generic [ref=e168]:
+              - img [ref=e170]
+              - generic [ref=e175]: premium
+              - img [ref=e177]
+            - generic [ref=e181]:
+              - img [ref=e183]
+              - generic [ref=e188]: taken
+              - img [ref=e190]
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - heading "How to evaluate domain name quality" [level=2] [ref=e196]
+            - paragraph [ref=e197]: When a name is available across most extensions, that's a strong signal it's genuinely unique. When it's taken everywhere, you're entering a crowded namespace — and likely a crowded market. Extension availability tells you something about the name that a simple availability check can't.
+          - generic [ref=e198]:
+            - img [ref=e199]
+            - generic [ref=e213]:
+              - img [ref=e214]
+              - generic [ref=e218]: loremipsum.com
+              - generic [ref=e219]:
+                - text: 40/100
+                - generic [ref=e220]: 55/100
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - heading "Compare registrar prices" [level=2] [ref=e223]
+            - paragraph [ref=e224]: Domain prices vary widely between registrars — sometimes by 50% or more for the exact same name. We show you side-by-side pricing from top registrars so you can find the best deal before you buy.
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - img "Namecheap" [ref=e228]
+              - generic [ref=e230]: Namecheap
+              - generic [ref=e231]: "???"
+            - generic [ref=e232]:
+              - img "Shopify" [ref=e234]
+              - generic [ref=e236]: Shopify
+              - generic [ref=e237]: "???"
+            - generic [ref=e238]:
+              - img "Hostinger" [ref=e240]
+              - generic [ref=e242]: Hostinger
+              - generic [ref=e243]: $215
+            - generic [ref=e244]:
+              - img "GoDaddy" [ref=e246]
+              - generic [ref=e247]:
+                - generic [ref=e248]: GoDaddy
+                - img [ref=e249]
+              - generic [ref=e252]: $199
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - heading "What to do if your domain is taken" [level=2] [ref=e255]
+            - paragraph [ref=e256]:
+              - text: "Options: try alternative extensions, use the"
+              - link "domain name generator" [ref=e257] [cursor=pointer]:
+                - /url: /domain-generator
+              - text: ", check"
+              - link "expired domains" [ref=e258] [cursor=pointer]:
+                - /url: /expired-domains
+              - text: ", contact the current owner, use a domain broker."
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - img [ref=e262]
+              - generic [ref=e267]: domain taken
+              - img [ref=e269]
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e277]: Generate new domain name
+            - generic [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e282]: Check expired domains
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - generic [ref=e287]: Contact owner
+            - generic [ref=e288]:
+              - img [ref=e289]
+              - generic [ref=e293]: Try alternative extensions
+        - generic [ref=e294]:
+          - heading "Frequently asked questions" [level=2] [ref=e295]
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - term [ref=e298]: How do I check if a domain name is available?
+              - definition [ref=e299]: Enter the domain name you want into our domain checker and we instantly query authoritative registries worldwide using live WHOIS and RDAP lookups. Results appear in milliseconds showing whether your domain is available, taken, or listed as a premium name. No cached data, no guessing. You can check domain availability for a single name and see results across 800+ extensions simultaneously.
+            - generic [ref=e300]:
+              - term [ref=e301]: How do I check if a business name is available as a domain?
+              - definition [ref=e302]: Type your business name into our domain availability checker and we'll show you which extensions are available across 800+ TLDs. Our TLD competitiveness score tells you what percentage of extensions are already taken. If most are available, that's a strong signal your business name is unique and brandable. If most are taken, you may be entering a crowded market. We also generate alternative domain name suggestions based on your business name.
+            - generic [ref=e303]:
+              - term [ref=e304]: Can I check multiple domain extensions at once?
+              - definition [ref=e305]:
+                - text: Yes. When you check domain availability for any name, our domain checker automatically queries 800+ TLDs including .com, .net, .org, .io, .ai, .dev, and many more. All results load simultaneously so you can compare options side by side without running separate searches. For checking multiple different domain names at once, try our
+                - link "bulk domain search tool" [ref=e306] [cursor=pointer]:
+                  - /url: /bulk-domain-search
+                - text: .
+            - generic [ref=e307]:
+              - term [ref=e308]: Is domain availability checking free?
+              - definition [ref=e309]: Yes, our domain checker is completely free with no limits. Check as many domain names as you want. Each search queries live registry data across 800+ extensions, compares registrar prices, and shows aftermarket options at no cost. We're an ICANN-accredited registrar, so availability results come directly from authoritative sources.
+            - generic [ref=e310]:
+              - term [ref=e311]: Are my domain searches private?
+              - definition [ref=e312]: Yes. We do not log, store, or share your domain searches. Your queries go directly to registries for real-time availability checks and are not recorded. Unlike some domain checkers that may flag searched domains for registration by third parties, Instant Domain Search is an ICANN-accredited registrar committed to search privacy.
+            - generic [ref=e313]:
+              - term [ref=e314]: What's the difference between a domain search and a domain availability checker?
+              - definition [ref=e315]:
+                - text: A domain availability checker verifies whether a specific domain name is registered or available. It answers the question "is this exact name taken?" A
+                - link "domain search" [ref=e316] [cursor=pointer]:
+                  - /url: /
+                - text: "is broader: it takes a keyword or idea and generates available domain name suggestions across multiple extensions. Our domain checker does both: check exact availability and discover alternatives, plus TLD competitiveness, registrar price comparisons, aftermarket listings, and a live preview of taken domains."
+            - generic [ref=e317]:
+              - term [ref=e318]: Why does a domain show as available but I can't register it?
+              - definition [ref=e319]: This can happen for a few reasons. Some domains are reserved by registries, under trademark protection, or in a redemption grace period after expiring. Occasionally, a domain may be registered in the brief window between our availability check and your registration attempt. Our domain checker queries live registry data to minimize these cases.
+            - generic [ref=e320]:
+              - term [ref=e321]: How much does it cost to register a domain name?
+              - definition [ref=e322]: Domain prices vary by extension and registrar. A .com typically costs $10–15 per year, while newer extensions like .io or .ai can range from $20 to $80+. Premium domains carry higher prices set by registries. Our domain availability checker shows side-by-side pricing from multiple registrars including GoDaddy, Namecheap, Shopify, and Hostinger so you can compare and find the best deal before you buy.
+            - generic [ref=e323]:
+              - term [ref=e324]: What happens after I check domain availability?
+              - definition [ref=e325]: Once you find an available domain, you see purchase options with pricing from multiple registrar partners. For taken domains, you get a live website preview, aftermarket purchase options, TLD competitiveness scores showing how many of the 800+ extensions are still available, and AI-generated alternative name suggestions. You can save domains to compare later or check multiple names in one session.
+            - generic [ref=e326]:
+              - term [ref=e327]: How is this different from other domain checkers?
+              - definition [ref=e328]: Most domain checkers only tell you if a name is available or taken. Ours checks 800+ TLDs simultaneously with live registry queries (not cached data), compares pricing across registrars, shows a TLD competitiveness score, provides aftermarket listings for taken domains, generates alternative name suggestions, and gives you a live preview of any taken domain's website. All in one search.
+            - generic [ref=e329]:
+              - term [ref=e330]: Can I buy a domain that's already taken?
+              - definition [ref=e331]:
+                - text: Yes. When you check domain availability and find a name is registered, our domain checker shows aftermarket purchase options from marketplaces like Dan.com, Sedo, Atom, and GoDaddy Afternic. You can see listed prices where available or make an offer directly through the marketplace. We also show alternative names and available extensions so you have multiple options. You can also browse
+                - link "aftermarket domains" [ref=e332] [cursor=pointer]:
+                  - /url: /aftermarket-domains
+                - text: to find similar premium names for sale.
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - img "Instant Domain Search" [ref=e336]
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - heading "Finding domains" [level=2] [ref=e347]
+            - generic [ref=e348]:
+              - link "Domain name search" [ref=e349] [cursor=pointer]:
+                - /url: /
+              - link "Domain extensions" [ref=e350] [cursor=pointer]:
+                - /url: /domain-extensions
+              - link "Domain generator" [ref=e351] [cursor=pointer]:
+                - /url: /domain-generator
+              - link "Aftermarket domains" [ref=e352] [cursor=pointer]:
+                - /url: /aftermarket-domains
+              - link "Expired domains" [ref=e353] [cursor=pointer]:
+                - /url: /expired-domains
+              - link "Bulk domain search" [ref=e354] [cursor=pointer]:
+                - /url: /bulk-domain-search
+              - link "Domain checker" [ref=e355] [cursor=pointer]:
+                - /url: /check
+          - generic [ref=e356]:
+            - heading "Domain tools" [level=2] [ref=e357]
+            - generic [ref=e358]:
+              - link "Search by TLD" [ref=e359] [cursor=pointer]:
+                - /url: /domain-extensions/ai
+              - link "Name generator" [ref=e360] [cursor=pointer]:
+                - /url: /business-name-generator
+              - link "Domain search MCP" [ref=e361] [cursor=pointer]:
+                - /url: /mcp
+              - link "Reverse dictionary" [ref=e362] [cursor=pointer]:
+                - /url: /words
+              - link "WHOIS lookup" [ref=e363] [cursor=pointer]:
+                - /url: /whois-lookup
+              - link "Registrar" [ref=e364] [cursor=pointer]:
+                - /url: https://instant.domains/login
+              - link "Domain directory" [ref=e365] [cursor=pointer]:
+                - /url: /directory
+              - link "Time machine" [ref=e366] [cursor=pointer]:
+                - /url: /time-machine
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - heading "Resources" [level=2] [ref=e369]
+            - generic [ref=e370]:
+              - link "Domain lists" [ref=e371] [cursor=pointer]:
+                - /url: /lists
+              - link "Blog" [ref=e372] [cursor=pointer]:
+                - /url: /learn
+              - link "FAQs" [ref=e373] [cursor=pointer]:
+                - /url: /faq
+              - link "Security" [ref=e374] [cursor=pointer]:
+                - /url: /security
+              - link "Terms" [ref=e375] [cursor=pointer]:
+                - /url: /policies/terms
+              - link "Privacy" [ref=e376] [cursor=pointer]:
+                - /url: /policies/privacy
+          - generic [ref=e377]:
+            - heading "Company" [level=2] [ref=e378]
+            - generic [ref=e379]:
+              - link "About" [ref=e380] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e381] [cursor=pointer]:
+                - /url: /contact
+              - link "GitHub" [ref=e382] [cursor=pointer]:
+                - /url: https://github.com/instant-labs/
+              - link "X" [ref=e383] [cursor=pointer]:
+                - /url: https://x.com/instantai
+              - link "LinkedIn" [ref=e384] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/instant-ai/
+      - separator [ref=e385]
+      - generic [ref=e386]:
+        - generic [ref=e387]: Instant Domain Search © 2026
+        - generic [ref=e388]:
+          - text: An
+          - link "ICANN-accredited" [ref=e389] [cursor=pointer]:
+            - /url: https://www.icann.org/en/contracted-parties/accredited-registrars/list-of-accredited-registrars?page=1&iana-number=3952
+          - text: domain registrar
+        - generic [ref=e390]:
+          - text: Designed and built by
+          - link "instant.ai" [ref=e391] [cursor=pointer]:
+            - /url: https://instant.ai
+        - img "Mascot illustration" [ref=e392]
+  - region "Notifications alt+T"

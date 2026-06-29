@@ -1,0 +1,23 @@
+{
+	"name": "workspace-marketing",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev --host 0.0.0.0 --port 5400",
+		"build": "vite build",
+		"preview": "vite preview --host 0.0.0.0 --port 5400",
+		"check": "prettier --check ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.2.12",
+		"@sveltejs/kit": "^2.20.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@tailwindcss/vite": "^4.0.9",
+		"prettier": "^3.8.4",
+		"prettier-plugin-svelte": "^4.1.1",
+		"svelte": "^5.20.0",
+		"tailwindcss": "^4.0.9",
+		"vite": "^6.2.0"
+	}
+}

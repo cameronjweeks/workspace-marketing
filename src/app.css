@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Ink: near-black blue-grey background ramp */
+	--color-ink-950: #08090d;
+	--color-ink-900: #0c0e14;
+	--color-ink-800: #11141d;
+	--color-ink-700: #1a1e2b;
+	--color-ink-600: #272c3d;
+
+	/* Ws: violet accent — the workspace brand color */
+	--color-ws-300: #c4b5fd;
+	--color-ws-400: #a78bfa;
+	--color-ws-500: #8b5cf6;
+	--color-ws-600: #7c3aed;
+
+	/* Run: green for live/active status indicators */
+	--color-run-400: #4ade80;
+	--color-run-500: #22c55e;
+
+	--font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+	--font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+}
+
+@keyframes drift-glow {
+	0%, 100% { opacity: 0.5; transform: translate3d(0, 0, 0); }
+	50%       { opacity: 0.85; transform: translate3d(2%, -1%, 0); }
+}
+.ws-glow {
+	background:
+		radial-gradient(60% 50% at 70% 10%, rgba(139, 92, 246, 0.2), transparent 70%),
+		radial-gradient(40% 40% at 20% 0%, rgba(74, 222, 128, 0.06), transparent 70%);
+	animation: drift-glow 14s ease-in-out infinite;
+}
+.grid-faint {
+	background-image:
+		linear-gradient(to right, rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+		linear-gradient(to bottom, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+	background-size: 56px 56px;
+	mask-image: radial-gradient(circle at 50% 0%, black, transparent 75%);
+}
+
+@keyframes blink {
+	0%, 100% { opacity: 1; }
+	50%       { opacity: 0; }
+}
+.cursor-blink { animation: blink 1.1s step-end infinite; }
+
+@keyframes slide-up {
+	from { opacity: 0; transform: translateY(6px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+.line-in { animation: slide-up 0.35s ease both; }
