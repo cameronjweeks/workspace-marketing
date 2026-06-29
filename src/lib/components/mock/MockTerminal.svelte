@@ -9,10 +9,10 @@
     { delay: 700,  cls: 'text-[#8b949e]', text: '' },
     { delay: 800,  cls: 'text-[#c9d1d9]', text: '  ↩  Continuing where you left off…' },
     { delay: 1100, cls: 'text-[#8b949e]', text: '' },
-    { delay: 1200, cls: 'text-[#3fb950]', text: '  ✓ Reading server/auth.js' },
+    { delay: 1200, cls: 'text-[#3fb950]', text: '  ✓ Reading server/routes.js' },
     { delay: 1400, cls: 'text-[#3fb950]', text: '  ✓ Reading src/lib/session.js' },
     { delay: 1600, cls: 'text-[#c9d1d9]', text: '  → Writing token refresh middleware…' },
-    { delay: 2000, cls: 'text-[#3fb950]', text: '  ✓ server/auth.js  (+47 lines)' },
+    { delay: 2000, cls: 'text-[#3fb950]', text: '  ✓ server/middleware.js  (+47 lines)' },
     { delay: 2200, cls: 'text-[#3fb950]', text: '  ✓ Tests passing' },
   ];
 

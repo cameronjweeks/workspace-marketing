@@ -25,16 +25,16 @@
         <span class="rounded-full bg-[#1f6feb] px-1.5 text-[9px] text-white">1</span>
       </div>
 
-      <div class="mt-2 px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-[#484f58]">Code</div>
-      {#each [['Zeus','4'],['App1',''],['Patchbay',''],['workspace','2']] as [name, badge]}
+      <div class="mt-2 px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-[#484f58]">Backend</div>
+      {#each [['api-service','4'],['auth-service',''],['data-pipeline',''],['storefront','2']] as [name, badge]}
         <div class="flex items-center justify-between px-3 py-1 {name === project ? 'bg-[#161b22]' : ''}">
           <span class="text-[11px] {name === project ? 'text-white' : 'text-[#8b949e]'}">{name}</span>
           {#if badge}<span class="rounded-full bg-[#1f6feb] px-1.5 text-[9px] text-white">{badge}</span>{/if}
         </div>
       {/each}
 
-      <div class="mt-2 px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-[#484f58]">Marketing</div>
-      {#each [['Zeus',''],['App1',''],['workspace','1']] as [name, badge]}
+      <div class="mt-2 px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-[#484f58]">Frontend</div>
+      {#each [['dashboard',''],['mobile-app',''],['marketing','1']] as [name, badge]}
         <div class="flex items-center justify-between px-3 py-1">
           <span class="text-[11px] text-[#8b949e]">{name}</span>
           {#if badge}<span class="rounded-full bg-[#1f6feb] px-1.5 text-[9px] text-white">{badge}</span>{/if}

@@ -2,13 +2,13 @@
   import MockAppShell from './MockAppShell.svelte';
 
   const done = [
-    { id: '#1', title: 'Fix dashboard buildWorkspaceSummaries', tags: 'done · sonnet · implementer' },
-    { id: '#2 · after #1', title: 'Getting Started onboarding tool — 7-step checklist', tags: 'done · sonnet · implementer' },
-    { id: '#3 · after #2', title: 'Getting Started — inline mini-wizards for GitHub, DNS…', tags: 'done · sonnet · implementer' },
+    { id: '#1', title: 'Add JWT refresh token rotation', tags: 'done · sonnet · implementer' },
+    { id: '#2 · after #1', title: 'Rate limiting middleware — per-IP with Redis', tags: 'done · sonnet · implementer' },
+    { id: '#3 · after #2', title: 'API docs — OpenAPI spec for auth endpoints', tags: 'done · sonnet · implementer' },
   ];
 </script>
 
-<MockAppShell project="Zeus" tab="board">
+<MockAppShell project="api-service" tab="board">
   <div class="h-full bg-[#0d1117] overflow-hidden flex flex-col">
     <!-- Toolbar -->
     <div class="flex items-center gap-2 border-b border-[#30363d] px-3 py-1.5 shrink-0">
@@ -28,7 +28,7 @@
 
     <!-- Epic bar -->
     <div class="flex items-center gap-2 border-b border-[#30363d] bg-[#161b22] px-3 py-1.5 shrink-0">
-      <span class="text-[11px] font-semibold text-[#c9d1d9]">🚀 zeus instance welcome</span>
+      <span class="text-[11px] font-semibold text-[#c9d1d9]">🚀 auth service v2</span>
       <div class="mx-2 h-1.5 flex-1 rounded-full bg-[#21262d]">
         <div class="h-full w-full rounded-full bg-[#3fb950]"></div>
       </div>
