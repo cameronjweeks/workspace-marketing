@@ -1,7 +1,7 @@
 <script>
 	import Section from '$lib/components/Section.svelte';
 	import Eyebrow from '$lib/components/Eyebrow.svelte';
-	import MockTerminal from '$lib/components/mock/MockTerminal.svelte';
+	import MockDevices from '$lib/components/mock/MockDevices.svelte';
 	import MockAgentBoard from '$lib/components/mock/MockAgentBoard.svelte';
 	import MockVSCode from '$lib/components/mock/MockVSCode.svelte';
 	import { pillars, tools, compatibleTools } from '$lib/data/features.js';
@@ -19,7 +19,7 @@
 	<div class="grid-faint pointer-events-none absolute inset-0"></div>
 
 	<Section cls="relative pt-24 pb-20 md:pt-32 md:pb-28">
-		<div class="grid items-center gap-14 lg:grid-cols-[1fr_1.15fr]">
+		<div class="grid items-center gap-10 lg:grid-cols-[1fr_1.4fr]">
 			<div class="min-w-0">
 				<Eyebrow>Open source · Self-hosted</Eyebrow>
 				<h1 class="mt-6 text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[3.5rem]">
@@ -68,9 +68,11 @@
 				</div>
 			</div>
 
-			<div class="min-w-0">
-				<MockTerminal />
-				<p class="mt-3 text-center font-mono text-xs text-slate-600">↑ session running 4h 22m — reconnected from iPhone</p>
+			<div class="min-w-0 overflow-hidden">
+				<div class="scale-[0.88] origin-top-right lg:scale-100">
+					<MockDevices />
+				</div>
+				<p class="mt-2 text-center font-mono text-xs text-slate-600">↑ same session — Mac, iPad, iPhone, all live</p>
 			</div>
 		</div>
 	</Section>
