@@ -11,7 +11,7 @@
 				<div class="mt-1.5 text-sm text-slate-400">Open source and self-hosted. Deploy in minutes.</div>
 			</div>
 			<a
-				href={ctaPrimary.href}
+				href={ctaPrimary.href} target="_blank" rel="noopener noreferrer"
 				class="shrink-0 rounded-lg bg-ws-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ws-400"
 			>{ctaPrimary.label}</a>
 		</div>
@@ -42,7 +42,7 @@
 			<div class="flex flex-wrap gap-5">
 				<a href="/privacy" class="hover:text-slate-300">Privacy</a>
 				<a href="/terms" class="hover:text-slate-300">Terms</a>
-				<a href="https://github.com/backv/workspace" class="hover:text-slate-300">GitHub</a>
+				<a href="https://github.com/backv/workspace" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300">GitHub</a>
 			</div>
 		</div>
 	</div>

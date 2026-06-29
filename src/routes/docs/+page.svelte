@@ -84,7 +84,7 @@ node server/index.js
             </li>
           {/each}
         </ul>
-        <p class="mt-4 leading-relaxed">Optional but recommended: <strong class="text-slate-300">NetBird</strong> for private mesh networking so you can reach the server from your phone without exposing any ports.</p>
+        <p class="mt-4 leading-relaxed">Optional but recommended: a <strong class="text-slate-300">private mesh tunnel</strong> (NetBird, Tailscale, ZeroTier) so you can reach the server from any device without exposing any ports.</p>
       </section>
 
       <!-- Installation -->
@@ -152,17 +152,16 @@ AUTH_PASS=change-me</code></pre>
         <h2 class="text-2xl font-bold text-white">Connecting from other devices</h2>
         <p class="mt-3 leading-relaxed">Once the server is running, you can reach it from any device on the same network at <code class="rounded bg-ink-800 px-1.5 py-0.5 text-xs text-slate-300">http://&lt;server-ip&gt;:5300</code>.</p>
 
-        <h3 class="mt-6 text-lg font-semibold text-white">Using NetBird (recommended)</h3>
-        <p class="mt-2 leading-relaxed">NetBird creates a private mesh network between your devices so you can reach the server without exposing any ports to the internet.</p>
+        <h3 class="mt-6 text-lg font-semibold text-white">Using a private mesh tunnel (recommended)</h3>
+        <p class="mt-2 leading-relaxed">Tools like <strong class="text-slate-300">Tailscale</strong>, <strong class="text-slate-300">NetBird</strong>, or <strong class="text-slate-300">ZeroTier</strong> create an encrypted private network between your devices so you can reach the server from your phone or tablet without exposing any ports to the internet.</p>
         <div class="mt-4 overflow-hidden rounded-xl border border-ink-700 bg-ink-950">
-          <pre class="overflow-x-auto p-5 font-mono text-sm leading-relaxed text-slate-300"><code><span class="text-slate-500"># On the server</span>
-curl -fsSL https://pkgs.netbird.io/install.sh | sh
-netbird up
+          <pre class="overflow-x-auto p-5 font-mono text-sm leading-relaxed text-slate-300"><code><span class="text-slate-500"># Example: Tailscale</span>
+curl -fsSL https://tailscale.com/install.sh | sh
+tailscale up
 
-<span class="text-slate-500"># On your phone / other device</span>
-<span class="text-slate-500"># Install NetBird from the App Store or Play Store</span>
+<span class="text-slate-500"># Install Tailscale (or NetBird / ZeroTier) on your phone</span>
 <span class="text-slate-500"># Sign in with the same account</span>
-<span class="text-slate-500"># Access Workspace at http://&lt;netbird-ip&gt;:5300</span></code></pre>
+<span class="text-slate-500"># Access Workspace at http://&lt;tunnel-ip&gt;:5300</span></code></pre>
         </div>
 
         <h3 class="mt-6 text-lg font-semibold text-white">Using a reverse proxy</h3>

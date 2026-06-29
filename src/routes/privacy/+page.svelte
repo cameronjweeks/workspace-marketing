@@ -55,14 +55,14 @@
         {/each}
       </ul>
       <p class="mt-4 leading-relaxed text-sm">
-        The Workspace server you install has no telemetry, no phone-home, and no external connections unless you configure them explicitly (e.g., connecting to a Claude API or a NetBird relay).
+        The Workspace server you install has no telemetry, no phone-home, and no external connections unless you configure them explicitly (e.g., connecting to a Claude API or a private mesh relay (NetBird, Tailscale, ZeroTier)).
       </p>
     </section>
 
     <section>
       <h2 class="text-xl font-bold text-white">Third-party services you may connect</h2>
       <p class="mt-3 leading-relaxed">
-        Workspace can be configured to use external services like the Anthropic Claude API (for AI features) or NetBird (for private networking). When you use these services, their own privacy policies apply. Workspace itself acts as a client — it passes requests through to these services on your behalf, using credentials you provide.
+        Workspace can be configured to use external services like the Anthropic Claude API (for AI features) or a private mesh tool like Tailscale or NetBird (for private networking). When you use these services, their own privacy policies apply. Workspace itself acts as a client — it passes requests through to these services on your behalf, using credentials you provide.
       </p>
     </section>
 
@@ -76,7 +76,7 @@
     <section>
       <h2 class="text-xl font-bold text-white">Contact</h2>
       <p class="mt-3 leading-relaxed">
-        Questions about privacy? Email <a href="mailto:cameron@backv.co" class="text-ws-400 hover:text-ws-300 underline">cameron@backv.co</a>.
+        Questions about privacy? Email <a href="mailto:info@workspaceai.dev" class="text-ws-400 hover:text-ws-300 underline">info@workspaceai.dev</a>.
       </p>
     </section>
 

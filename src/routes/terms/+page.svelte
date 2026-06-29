@@ -47,7 +47,7 @@
     <section>
       <h2 class="text-xl font-bold text-white">Third-party services</h2>
       <p class="mt-3 leading-relaxed">
-        Workspace integrates with optional third-party services (Anthropic Claude, NetBird, GitHub, etc.). Your use of those services is governed by their own terms. We are not responsible for the terms, availability, or data practices of any third party.
+        Workspace integrates with optional third-party services (Anthropic Claude, Tailscale, NetBird, GitHub, etc.). Your use of those services is governed by their own terms. We are not responsible for the terms, availability, or data practices of any third party.
       </p>
     </section>
 
@@ -61,7 +61,7 @@
     <section>
       <h2 class="text-xl font-bold text-white">Contact</h2>
       <p class="mt-3 leading-relaxed">
-        Questions? Email <a href="mailto:cameron@backv.co" class="text-ws-400 hover:text-ws-300 underline">cameron@backv.co</a>.
+        Questions? Email <a href="mailto:info@workspaceai.dev" class="text-ws-400 hover:text-ws-300 underline">info@workspaceai.dev</a>.
       </p>
     </section>
 

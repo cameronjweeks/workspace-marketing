@@ -6,7 +6,7 @@ export const site = {
 		'A self-hosted browser workspace that keeps your terminals, editors, and projects running — so you can pick up from your iPhone, iPad, or desktop without losing a thing.'
 };
 
-export const ctaPrimary = { label: 'View on GitHub', href: 'https://github.com/cameronjweeks/workspace-marketing' };
+export const ctaPrimary = { label: 'View on GitHub', href: 'https://github.com/cameronjweeks/workspace-marketing', external: true };
 export const ctaSecondary = { label: 'Read the docs', href: '/docs' };
 
 export const nav = [
@@ -39,7 +39,7 @@ export const footerNav = [
 		heading: 'Company',
 		links: [
 			{ label: 'Backv Studio', href: 'https://backv.co' },
-			{ label: 'Contact', href: 'mailto:hello@workspaceai.dev' }
+			{ label: 'Contact', href: 'mailto:info@workspaceai.dev' }
 		]
 	}
 ];

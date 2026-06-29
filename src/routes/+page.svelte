@@ -47,7 +47,7 @@
 
 				<div class="mt-10 flex flex-col gap-3 sm:flex-row">
 					<a
-						href={ctaPrimary.href}
+						href={ctaPrimary.href} target="_blank" rel="noopener noreferrer"
 						class="inline-flex items-center justify-center gap-2 rounded-lg bg-ws-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_28px_-4px_rgba(47,129,247,0.7)] transition-all hover:bg-ws-400"
 					>
 						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -250,12 +250,12 @@
 					Your server. Your data. Your environment.
 				</h2>
 				<p class="mt-5 leading-relaxed text-slate-400">
-					Workspace is MIT-licensed and self-hosted. Deploy it on any Linux server, connect through your private NetBird mesh, and know that your code, sessions, and context never leave your infrastructure.
+					Workspace is MIT-licensed and self-hosted. Deploy it on any Linux server, connect through a private mesh (NetBird, Tailscale, ZeroTier — your choice), and know that your code, sessions, and context never leave your infrastructure.
 				</p>
 				<ul class="mt-7 space-y-3">
 					{#each [
 						'Deploy on any Linux box or VM in minutes',
-						'Private mesh via NetBird — no open ports, no VPN config',
+						'Private mesh (NetBird, Tailscale, ZeroTier) — no open ports',
 						'Fork it, extend it, embed it — it\'s yours',
 						'Embeddable: mount the backend into your own app'
 					] as item}
@@ -266,7 +266,7 @@
 					{/each}
 				</ul>
 				<div class="mt-8 flex gap-3">
-					<a href={ctaPrimary.href} class="rounded-lg bg-ws-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
+					<a href={ctaPrimary.href} target="_blank" rel="noopener noreferrer" class="rounded-lg bg-ws-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
 					<a href="/docs" class="rounded-lg border border-ink-600 px-5 py-2.5 text-sm font-semibold text-slate-200 transition-colors hover:bg-ink-800">Deploy guide</a>
 				</div>
 			</div>
@@ -307,7 +307,7 @@ node server/index.js
 				Self-hosted, open source, and built for the reality that your best work doesn't happen at a single desk.
 			</p>
 			<div class="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
-				<a href={ctaPrimary.href} class="rounded-lg bg-ws-500 px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
+				<a href={ctaPrimary.href} target="_blank" rel="noopener noreferrer" class="rounded-lg bg-ws-500 px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
 				<a href="/docs" class="rounded-lg border border-ink-600 bg-ink-800/50 px-7 py-3 text-sm font-semibold text-slate-200 transition-colors hover:bg-ink-800">Read the docs</a>
 			</div>
 		</div>

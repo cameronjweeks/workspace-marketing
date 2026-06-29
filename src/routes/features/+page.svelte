@@ -26,7 +26,7 @@
         {
           icon: 'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z',
           name: 'Secure by default',
-          desc: 'Deploy behind NetBird mesh networking — no open ports, no VPN config, no public exposure. Your server stays private.',
+          desc: 'Deploy behind a private mesh (NetBird, Tailscale, ZeroTier) — no open ports, no public exposure. Your server stays private.',
         },
         {
           icon: 'M4 6h16M4 10h16M4 14h16M4 18h16',
@@ -173,7 +173,7 @@
         Self-hosted, open source, MIT licensed. Deploy on any Linux server in minutes.
       </p>
       <div class="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
-        <a href={ctaPrimary.href} class="rounded-lg bg-ws-500 px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
+        <a href={ctaPrimary.href} target="_blank" rel="noopener noreferrer" class="rounded-lg bg-ws-500 px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-ws-400">{ctaPrimary.label}</a>
         <a href="/docs" class="rounded-lg border border-ink-600 bg-ink-800/50 px-7 py-3 text-sm font-semibold text-slate-200 transition-colors hover:bg-ink-800">Read the docs</a>
       </div>
     </div>
